@@ -672,3 +672,19 @@ body.light .btn-ghost { color: var(--text); border-color: #cfd6e6; }
   .about-wordmark { font-size: 30px; letter-spacing: 1px; }
   .about-panel .about-panel-inner { padding: 26px 18px; }
 }
+
+/* ===== Editorial team & bylines ===== */
+.byline { margin-top: 10px; font-size: 13px; color: var(--muted); }
+.byline a { color: var(--gold); text-decoration: none; font-weight: 600; }
+.byline a:hover { text-decoration: underline; }
+.page-hero .byline { color: #c7cfeb; }
+.page-hero .byline a { color: var(--gold-2); }
+.team-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 18px; margin-top: 8px; }
+.team-card { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 22px; }
+.team-card h3 { margin: 12px 0 2px; font-size: 18px; color: var(--text); }
+.tc-ava { width: 52px; height: 52px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 900; color: #1a1206; background: linear-gradient(135deg, var(--gold-2), var(--gold-3)); font-size: 18px; letter-spacing: .5px; }
+.tc-role { font-size: 13px; color: var(--gold-3); font-weight: 700; margin-bottom: 8px; }
+.team-card p { font-size: 14px; color: var(--muted); line-height: 1.55; margin: 0 0 12px; }
+.tc-li { display: inline-block; font-size: 13px; font-weight: 700; color: var(--gold); text-decoration: none; border: 1px solid var(--line); padding: 6px 12px; border-radius: 999px; }
+.tc-li:hover { border-color: var(--gold); }
+body.light .team-card { box-shadow: 0 6px 18px rgba(30,45,90,.06); }
